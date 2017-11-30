@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box ;
+}
+
+body{
+	font-family: "time new roman", Times, serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	padding-left: 150px;
+	left: 0;
+	width: 100%; 
+
+}
+/*left menu*/
+#left-menu{
+	height: 100%;
+	width: 150px;
+	left: 0;
+	top: 0;
+	background-color: #81d38c;
+	position: fixed;
+
+}
+#left-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+
+}
+#left-menu ul li{
+	line-height: 3em;
+	height: 3em;
+}
+#left-menu li a{
+	display: block;
+	color: #405249;
+	padding: 0.5em;
+	border-bottom: 1px solid #ffffff;
+	text-decoration: none;
+
+}
+#left-menu li:hover{
+	background-color: #cbe2ce;
+
+}
+/* top menu*/
+#top-menu{
+	height: 50px;
+	width: 100%;
+	/* margin-left: 200px */
+}
+#top-menu ul{
+	background-color: #1d5688;
+	list-style-type: none;
+	text-align: center;
+	line-height: 50px;
+
+}
+#top-menu ul li{
+	color: #a6daec;
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	line-height: 50px;
+	margin-left: -5px;
+	position: relative;
+}
+#top-menu li a{
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+#top-menu a:hover{
+	background: #f1f1f1;
+	color : #000000;
+}
+/*sub menu*/
+.sub-menu{
+	display: none;
+	position: absolute;
+	/* z-index: 101; */
+
+}
+#top-menu li:hover .sub-menu{
+	display: block;
+}
+.sub-menu ul li{
+	margin-left: 0 !important; 
+
+}
+/*header*/
+#header{
+	text-align: center;
+	color: #1e4980;
+	background-color: #adadad;
+	border-style: solid;
+	border-width: 10px;
+	-webkit-border-image: url(../img/border1.png) 10 round; /* Safari 3.1-5 */
+    -o-border-image: url(../img/border1.png)  10 round; /* Opera 11-12.1 */
+    border-image: url(../img/border1.png)  10 round;
+}
+#logo img{
+	height: 250px;
+	width: 960px;
+
+
+}
+/*content and box*/
+
+#content h2{
+
+	width: 80%;
+}
+.box{
+	margin-right: 10px;
+	float: right; 
+	width: 30%;
+
+}
+/* #box1{
+	float: right; 
+	width: 30%;
+}
+#box2{
+	float: right; 
+	width: 30%;
+}
+#box3{
+	float: right;
+	width: 30%;	
+} */
+#content p::first-line{
+	color: orange;
+}
+#footer{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+
+}

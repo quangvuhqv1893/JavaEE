@@ -1,0 +1,41 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:  border-box;
+	-webkit-box-sizing:  border-box;
+}
+body{
+	font-family: time new roman, times,serif;
+	color: #000000;
+	font-size: 16px;
+	line-height: 1.5em;
+	/* padding: 3em; */
+}
+
+#container{
+	background-color: #F5DFE8;
+	width: 500px;
+	height: 300px;
+	border: 10px solid #000000;
+	margin: 0 auto;
+	margin-top:100px ;
+	padding: 5em; 
+	padding-top: 3em;
+	border-image: url(../img/border1.png) 20 round; 
+}
+
+.text{
+	width: 300px; 
+	height:30px;
+	border-radius: 5px; 
+	border: 1px solid #000000;
+}
+#submit{
+	width:100px; 
+	height:40px;
+	background-color: #A6E22E;  
+}
