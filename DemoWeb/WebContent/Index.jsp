@@ -1,0 +1,96 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="container">
+		<div id="top-menu">
+			<ul>
+				<li><a href="#">HTML & CSS</a>
+					<ul class="sub-menu">
+						<li><a href="#">table</a></li>
+						<li><a href="#">jframe</a></li>
+						<li><a href="Database.jsp" target="">form</a></li>
+
+					</ul></li>
+				<li><a href="#">JavaScript</a></li>
+				<li><a href="#">Jquery</a></li>
+				<li><a href="#">Jsp</a></li>
+				<li><a href="#">Servlet</a></li>
+				<li><a href="#">Spring</a></li>
+				<li><a href="#">Hibernate</a></li>
+			</ul>
+		</div>
+		<div id="left-menu">
+			<ul>
+				<li><a href="#">HTML & CSS</a></li>
+				<li><a href="#">JavaScript</a></li>
+				<li><a href="#">Jquery</a></li>
+				<li><a href="#">Jsp</a></li>
+				<li><a href="#">Servlet</a></li>
+				<li><a href="#">Spring</a></li>
+				<li><a href="#">Hibernate</a></li>
+			</ul>
+		</div>
+		<div id="header">
+			<div id="logo">
+				<img name="logo" id="img" src="img/logoCmc.jpg"
+					onmouseover="swap('img/earth.jpg')"
+					onmouseout="swap('img/logoCmc.jpg')" alt="logoCmc">
+			</div>
+			<h3>CHAMP GLOBAL DEVERLOPER PASSPORT</h3>
+		</div>
+		<div id="content">
+			<div class="box">
+				<h2>Lorem ipsum dolor sit amet</h2>
+				<img src="img/logoCmc.jpg" height="80" width="80"
+					style="float: left;" alt="logo">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Dolore expedita eaque quidem vitae, obcaecati aut, rerum optio
+					culpa est error distinctio totam sed, maiores veritatis in! Rerum
+					sit alias doloremque blanditiis corporis facilis sunt, ad unde
+					dicta aliquid veritatis, saepe cum. Velit error quis quaerat
+					reiciendis repellendus, eveniet et veritatis tenetur assumenda
+					nesciunt, nihil voluptas animi cum vel ipsum?</p>
+			</div>
+			<div class="box">
+				<h2>Lorem ipsum dolor sit amet</h2>
+				<img src="img/logoCmc.jpg" height="80" width="80"
+					style="float: left;" alt="logo">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Dolore expedita eaque quidem vitae, obcaecati aut, rerum optio
+					culpa est error distinctio totam sed, maiores veritatis in! Rerum
+					sit alias doloremque blanditiis corporis facilis sunt, ad unde
+					dicta aliquid veritatis, saepe cum. Velit error quis quaerat
+					reiciendis repellendus, eveniet et veritatis tenetur assumenda
+					nesciunt, nihil voluptas animi cum vel ipsum?</p>
+			</div>
+			<div class="box">
+				<h2>Lorem ipsum dolor sit amet</h2>
+				<img src="img/logoCmc.jpg" height="80" width="80"
+					style="float: left;" alt="logo">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Dolore expedita eaque quidem vitae, obcaecati aut, rerum optio
+					culpa est error distinctio totam sed, maiores veritatis in! Rerum
+					sit alias doloremque blanditiis corporis facilis sunt, ad unde
+					dicta aliquid veritatis, saepe cum. Velit error quis quaerat
+					reiciendis repellendus, eveniet et veritatis tenetur assumenda
+					nesciunt, nihil voluptas animi cum vel ipsum?</p>
+			</div>
+
+
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2015, All Rights Reserved</p>
+		</div>
+	</div>
+
+</body>
+<script src="js/index.js" type="text/javascript" charset="utf-8" async
+	defer></script>
+</html>

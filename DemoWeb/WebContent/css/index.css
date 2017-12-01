@@ -44,7 +44,8 @@ body{
 #left-menu li a{
 	display: block;
 	color: #405249;
-	padding: 0.5em;
+	/* padding: 0.5em; */
+	padding-left: 0.5em; 
 	border-bottom: 1px solid #ffffff;
 	text-decoration: none;
 
