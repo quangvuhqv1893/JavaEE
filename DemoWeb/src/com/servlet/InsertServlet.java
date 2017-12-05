@@ -66,7 +66,7 @@ public class InsertServlet extends HttpServlet {
     }
     if (status==true) {
 //      out.println("<p> successful!</p>");
-      request.getRequestDispatcher("Form.html").include(request, resp);
+      request.getRequestDispatcher("Form.jsp").include(request, resp);
     }else {
 //      out.print("can't! please try again!");
     }

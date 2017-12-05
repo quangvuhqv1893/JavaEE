@@ -38,7 +38,7 @@
 			<td><div align="center"><c:out value="${employee.way}" /> </div> </td>
 			<td><div align="center"><c:out value="${employee.img}" /> </div> </td>
 			<td><a href="/DeleteData?id=<c:out value="${employee.employeeID}"/>" > Delete </a></td>
-			<td><a href="Form.jsp?id=<c:out value="${employee.employeeID}"/>" > Update </a></td>
+			<td><a href="ServletForm.jsp?id=<c:out value="${employee.employeeID}"/>" > Update </a></td>
 		</tr>
 		<%-- <tr>
 			<td><div align="center"><%=employee.getEmployeeID()%></div></td>

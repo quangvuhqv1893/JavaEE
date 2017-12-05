@@ -28,7 +28,7 @@ public class Config {
   public static Connection connect() throws SQLException, ClassNotFoundException {
     Class.forName(Driver);
     // get connection
-    Connection cn = DriverManager.getConnection(URL);
+    Connection cn = DriverManager.getConnection(ConnectionURL,userName,passWord);
     return cn;
   }
 

@@ -5,15 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/cookies.css">
 </head>
 <body onload="readCookie();">
 	<div id="container">
 		<h3>Form login</h3>
-<form action=""  name="cookies" onsubmit=" javascript: return setCookies();" method="post" accept-charset="utf-8">
+<form action="LoginServlet"  name="cookies" onsubmit=" javascript: return setCookies();" method="post" accept-charset="utf-8">
 
-			Username: <input class="text"  type="text" name="username" value="" placeholder=" input uesername" ><br/>
+			Username: <input class="text"  type="text" name="userName" value="" placeholder=" input uesername" ><br/>
 
-			Password: <input class="text"  type="password" name="password" value="" placeholder=" input password"><br/>
+			Password: <input class="text"  type="password" name="passWord" value="" placeholder=" input password"><br/>
 
 			<input  type="checkbox" name="checkboxx" value=""> Remember User <br/>
 

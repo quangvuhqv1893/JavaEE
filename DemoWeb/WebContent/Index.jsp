@@ -35,6 +35,7 @@
 				<li><a href="#">Servlet</a></li>
 				<li><a href="#">Spring</a></li>
 				<li><a href="#">Hibernate</a></li>
+				<li><a href="Logout">Logout</a></li>
 			</ul>
 		</div>
 		<div id="header">

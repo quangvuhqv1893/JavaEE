@@ -14,7 +14,8 @@
 </head>
 <body>
 	<div id="container">
-		<form action="/insertData"  name="form"
+		<%String empId = request.getParameter("id");%>
+		<form action=<%= "\"InsertData.jsp?id="+empId+"\"" %>  name="form"
 			onsubmit="return checkPhone()" method="post" accept-charset="utf-8">
 			<fieldset>
 				<legend>Form dang ki hoc</legend>
