@@ -30,7 +30,7 @@ public class InsertServlet extends HttpServlet {
   @Override
   protected void doPost(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
     super.doPost(request, resp);
-    resp.setContentType("text/html");
+//    resp.setContentType("text/html");
     PrintWriter out = resp.getWriter();
     String id = request.getParameter("id");
     String firstName=request.getParameter("firstName");
@@ -57,17 +57,18 @@ public class InsertServlet extends HttpServlet {
     /*
      * if id!="null"&&id!="" then update data else insert data.
      */
-    if(id!="null"&&id!="") {
-      employee.setEmployeeID(id);
+    if((!"null".equals(id) && id != "")) {
+      
+      employee.setEmployeeID(Integer.parseInt(id));
       status=emDao.updateData(employee);
     }else {
       status = emDao.insertData(employee);
     }
     if (status==true) {
-      out.println("<p> successful!</p>");
+//      out.println("<p> successful!</p>");
       request.getRequestDispatcher("Form.html").include(request, resp);
     }else {
-      out.print("can't! please try again!");
+//      out.print("can't! please try again!");
     }
     resp.sendRedirect("showData");
     out.close();

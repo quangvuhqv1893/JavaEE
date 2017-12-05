@@ -14,10 +14,11 @@
 </head>
 <body>
 	<div id="container">
-		<form action="InsertData.jsp?id=<%String empId = request.getParameter("id");%>"  name="form"
+		<form action="/insertData"  name="form"
 			onsubmit="return checkPhone()" method="post" accept-charset="utf-8">
 			<fieldset>
 				<legend>Form dang ki hoc</legend>
+				<!-- <input class=""text" type="hidden" name="id" value="\"+request.getParameter("id")+"\"" > -->
 				<div>First name</div>
 				<input class="text" type="text" name="firstName"
 					placeholder="input first name" required>

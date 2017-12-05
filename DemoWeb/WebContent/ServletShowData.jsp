@@ -28,7 +28,7 @@
 		</tr>
 		<c:forEach items="${showData}" var="employee">
 		<tr>
-			<td><div align="center"><c:out value="${employee.EmployeeID}" /> </div> </td>
+			<td><div align="center"><c:out value="${employee.employeeID}" /> </div> </td>
 			<td><div align="center"><c:out value="${employee.firstName}" /> </div> </td>
 			<td><div align="center"><c:out value="${employee.lastName}" /> </div> </td>
 			<td><div align="center"><c:out value="${employee.phoneNumber}" /> </div> </td>
@@ -37,8 +37,8 @@
 			<td><div align="center"><c:out value="${employee.vehicle}" /> </div> </td>
 			<td><div align="center"><c:out value="${employee.way}" /> </div> </td>
 			<td><div align="center"><c:out value="${employee.img}" /> </div> </td>
-			<td><a href="DeleteData.jsp?id=<c:out value="${employee.EmployeeID}"/>" > Delete </a></td>
-			<td><a href="Form.jsp?id=<c:out value="${employee.EmployeeID}"/>" > Update </a></td>
+			<td><a href="/DeleteData?id=<c:out value="${employee.employeeID}"/>" > Delete </a></td>
+			<td><a href="Form.jsp?id=<c:out value="${employee.employeeID}"/>" > Update </a></td>
 		</tr>
 		<%-- <tr>
 			<td><div align="center"><%=employee.getEmployeeID()%></div></td>

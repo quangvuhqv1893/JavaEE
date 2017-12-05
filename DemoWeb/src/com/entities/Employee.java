@@ -10,7 +10,7 @@ package com.entities;
  * @create: Dec 4, 2017
  */
 public class Employee {
-  private String employeeID;
+  private int employeeID;
   private String firstName;
   private String lastName;
   private String phoneNumber;
@@ -24,14 +24,14 @@ public class Employee {
   /**
    * @return the employeeID to set
    */
-  public String getEmployeeID() {
+  public int getEmployeeID() {
     return employeeID;
   }
   /**
-   * @param employeeID the employeeID to set
+   * @param i the employeeID to set
    */
-  public void setEmployeeID(String employeeID) {
-    this.employeeID = employeeID;
+  public void setEmployeeID(int i) {
+    this.employeeID = i;
   }
   /**
    * @return the firstName to set
@@ -144,7 +144,7 @@ public class Employee {
    * @param way
    * @param img
    */
-  public Employee(String employeeID,String firstName, String lastName, String phoneNumber, String gender, String description,
+  public Employee(int employeeID,String firstName, String lastName, String phoneNumber, String gender, String description,
       String vehicle, String way, String img) {
     super();
     this.employeeID = employeeID;

@@ -73,7 +73,7 @@ public class EmployDao {
       pStatement.setString(6, employee.getVehicle());
       pStatement.setString(7, employee.getWay());
       pStatement.setString(8, employee.getImg());
-      pStatement.setString(9, employee.getEmployeeID());
+      pStatement.setInt(9, employee.getEmployeeID());
       pStatement.executeUpdate();
       connection.close();
     } catch (Exception e) {
@@ -159,7 +159,7 @@ public class EmployDao {
       ResultSet resultSet = statement.executeQuery(SqlQuery.GET_ALL_EMPLOYEE);
       while(resultSet.next()) {
         Employee employee = new Employee();
-        employee.setEmployeeID(resultSet.getString(1));
+        employee.setEmployeeID(resultSet.getInt(1));
         employee.setFirstName(resultSet.getString(2));
         employee.setLastName(resultSet.getString(3));
         employee.setPhoneNumber(resultSet.getString(4));
